@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "5"
+- '5'
+deploy:
+  provider: npm
+  email: hello@kadira.io
+  api_key:
+    secure: ey550U3YoMvpXu/Empuz6ug8Yvh0y8DW6/VJdw3IzXwciF7SGEXbzqDoxc+GfT/31Lii1yyH1uJ9ugtN3W6wMQu5O7MscvC88L9tM2u23bGWKd3dqJZii/qUm641p2RyZlzRfRDLGA6+YLe/7mTiQWKBPpAFE1/Movf0w5evTaB87PU+Ju+LmktoYP2cQfsYEURaPvySiFTjpsAF5gDprRfooH4RiE/1M4/NDXVNN4RDxlzINs13NA4utUpFE41KQIj/WyU6XpyzFzaKP00UgJgX/kqbzvSKQ5FXRoxHmKEkHi7bOuo6lZ3pGg6zdMP+RydjGyZvmo155CIF+xqxANtECpvwiFjkhQnp1KnIh8cznvHqNqI67TcxA+JocWpmxy/HIXlnjq85HROkXGyMPn5CIrBMepsaCP13wbELWTkH+0Bnzz+i6E8tPxyRObAip9t5aG1nP8piWYMAkttSp3tLFue2k+kmBTtC8LfPsLuXR598e7yhOEPXIV962mB1Dl6vImqNyWjC26iIuzm5h7lT0hV+sn6TUbUOl7T6KSyBQii8+Xn2MMTOmZ6zO4mZXFnqlGPtGbSRRJpg6UJ/Z+veEfrFc3I9jSWV3h12X0T2WG62lff5uTwim+R4LsIY+DIOrZ8GNmU2cbLmzI8s0r8sIm36sLx86tIeacx/vqY=
+  on:
+    branch: release
